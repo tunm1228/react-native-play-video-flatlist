@@ -10,17 +10,13 @@ import React from 'react';
 import {
   View,
 } from 'react-native';
-import Home from './src/Home';
+import Routes from './src/routes';
 
 const App: () => React$Node = () => {
 
 
   return (
-    <>
-      <View style={{ flex: 1 }}>
-        <Home />
-      </View>
-    </>
+    <Routes />
   );
 };
 
